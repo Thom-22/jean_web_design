@@ -9,6 +9,8 @@ $photo = getPhoto($id);
 getHeader($photo["titre"], "Page d'accueil de la photo 1");
 
 
+
+
 ?>
 
 <header>
@@ -20,5 +22,10 @@ getHeader($photo["titre"], "Page d'accueil de la photo 1");
 </header>    
 
 <h1><?php echo $photo["titre"] ; ?></h1>
+
+
+<?php foreach () : ?>
+
+<?php endforeach; ?>
 
         <?php getFooter(); ?>
